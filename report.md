@@ -27,3 +27,12 @@ Now go to the end of the file to add a line specifying the root directory for th
 
          STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
+Now we need to modify the 'ALLOWED_HOSTS' so that we can run the box url and configure the database.
+
+         python3 manage.py migrate
+
+## start running this server
+
+
+
+

@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure--59wd)p05-(+_0voqq-w(4rr6t_69upt8d%358_^&f-h&ci*6c
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['sushifuji-lunchsouth-8000.codio-box.uk','localhost']
 
 
 # Application definition
