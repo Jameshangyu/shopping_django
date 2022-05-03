@@ -39,6 +39,9 @@ We will use 'manage.py' to run this application by the command:
 It will show a rocket logo for success.
 
 ## Modeling the data
+The goal of this project is to show the items and purchase them, so we need to have spreadsheets, and show them on website
+
+         python3 manage.py startapp bears
 
 
 
