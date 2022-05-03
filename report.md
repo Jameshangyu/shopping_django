@@ -10,3 +10,20 @@ We could start to develop this project. Create a new folder 'shopping_django' an
          python3 -m venv .venv # this creates the virtual environment for you
          source .venv/bin/activate # this activates the virtual environment
          pip install --upgrade pip [ this is optional]  # this installs pip, and upgrades it if required.
+
+We will use Django as our framework for our shopping application; We use next command line to install.
+
+         pip install django
+
+We would like to create the site using django admin tool. It is admin part for this application
+        
+         django-admin startproject mysite .
+
+We will modify setting for this site, and we will do it by changing 'mysite/settings.py' to add package
+
+         import os
+
+Now go to the end of the file to add a line specifying the root directory for the static files.
+
+         STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+
