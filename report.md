@@ -1,0 +1,1 @@
+# A shopping project in Python with Django
