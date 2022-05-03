@@ -43,5 +43,11 @@ The goal of this project is to show the items and purchase them, so we need to h
 
          python3 manage.py startapp bears
 
+A new folder 'shop' is generated containing relevant config files for us including space for database migrations.
+
+We need to download e-commerce dataset and put them under the folder of 'shop'.
+
+we need to modify the settings.py file in the mysite app, to include 'shop' content in the section of 'INSTALLED_APPS'. 
+
 
 
