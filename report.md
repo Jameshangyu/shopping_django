@@ -49,5 +49,9 @@ We need to download e-commerce dataset and put them under the folder of 'shop'.
 
 we need to modify the settings.py file in the mysite app, to include 'shop' content in the section of 'INSTALLED_APPS'. 
 
+Now We will use Faker to generate some random content. Install Faker by next command.
+
+         pip install Faker
+
 
 
