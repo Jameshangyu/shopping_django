@@ -32,7 +32,13 @@ Now we need to modify the 'ALLOWED_HOSTS' so that we can run the box url and con
          python3 manage.py migrate
 
 ## start running this server
+We will use 'manage.py' to run this application by the command:
 
+        python3 manage.py runserver 0.0.0.0:8000
+
+It will show a rocket logo for success.
+
+## Modeling the data
 
 
 
