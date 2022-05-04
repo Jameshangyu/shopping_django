@@ -53,5 +53,9 @@ Now We will use Faker to generate some random content. Install Faker by next com
 
          pip install Faker
 
+Now we will use Faker to generate customers and items in the folder of 'shop/management/commands/populate_table.py' .
+We would use the next command to populate the table.
+
+
 
 
